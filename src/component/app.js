@@ -10,6 +10,8 @@ import GetForm from './react-5/form'
 import SomeInput from './react-5/someInput'
 import Buy from './react-6/buy'
 import Conversion from './react-6/conversion'
+import SlotTemplate from './react-7/slot'
+import SomeSlote from './react-7/someSlot'
 const list = [
     {
         name:'a',
@@ -43,6 +45,12 @@ const someList = [{
     title:'title3',
     content:'content3'
 }]
+function LeftTem(){
+    return <h1>left</h1>
+}
+function RightTem(){
+    return <h1>right</h1>
+}
 class App extends React.Component{
     render(){
         return (
@@ -59,6 +67,8 @@ class App extends React.Component{
                 <SomeInput />
                 <Buy />
                 <Conversion />
+                <SlotTemplate />
+                <SomeSlote left={ <LeftTem /> } right={ <RightTem /> } />
             </div>
         )
     }
