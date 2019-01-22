@@ -1,17 +1,17 @@
 import React from 'react'
-import SetText from './react-1/setText'
-import GetTime from './react-1/getTime'
-import Greeting from './react-2/Greeting'
-import Greetingbtn from './react-3/Greetingbtn'
-import GetList from './react-4/list'
-import Lists from './react-4/listItem'
-import SomeList from './react-4/someLists'
-import GetForm from './react-5/form'
-import SomeInput from './react-5/someInput'
-import Buy from './react-6/buy'
-import Conversion from './react-6/conversion'
-import SlotTemplate from './react-7/slot'
-import SomeSlote from './react-7/someSlot'
+import SetText from './example/react-1/setText'
+import GetTime from './example/react-1/getTime'
+import Greeting from './example/react-2/Greeting'
+import Greetingbtn from './example/react-3/Greetingbtn'
+import GetList from './example/react-4/list'
+import Lists from './example/react-4/listItem'
+import SomeList from './example/react-4/someLists'
+import GetForm from './example/react-5/form'
+import SomeInput from './example/react-5/someInput'
+import Buy from './example/react-6/buy'
+import Conversion from './example/react-6/conversion'
+import SlotTemplate from './example/react-7/slot'
+import SomeSlote from './example/react-7/someSlot'
 const list = [
     {
         name:'a',
@@ -51,7 +51,7 @@ function LeftTem(){
 function RightTem(){
     return <h1>right</h1>
 }
-class App extends React.Component{
+class AppTest extends React.Component{
     render(){
         return (
             <div>
@@ -73,4 +73,4 @@ class App extends React.Component{
         )
     }
 }
-export default App
+export default AppTest
