@@ -1,5 +1,4 @@
 import React from 'react'
-
 function LiList(props){
     return <li>{props.value}</li>
 }
